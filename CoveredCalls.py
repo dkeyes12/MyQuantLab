@@ -5,7 +5,7 @@ from alpaca.trading.enums import OrderSide, TimeInForce
 api_key = ""
 secret_key = ""
 
-0trading_client = TradingClient(api_key, secret_key, paper=True)
+trading_client = TradingClient(api_key, secret_key, paper=True)
 
 limit_order_data = LimitOrderRequest(
     symbol="SPY",
